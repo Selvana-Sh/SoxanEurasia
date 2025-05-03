@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soxan Eurasia</title>
+    <link rel="stylesheet" href="assets/styles/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-white">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-25 items-center justify-between">
+            <!-- Mobile menu button -->
+            <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
+              <button type="button" class="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400  focus:outline-none focus:ring-inset" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="absolute -inset-0.5"></span>
+                <span class="sr-only">Open main menu</span>
+                <!-- Hamburger icon -->
+                <svg class="block size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <svg class="hidden size-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+      
+            <!-- Left side: Logo + Text -->
+            <div class="flex items-center">
+                <!-- ADD LOGO!!! -->
+              <img class="h-20 w-auto" src="assets/images/soxan-logo.png" alt="soxan-logo">
+              <span class="text-black font-semibold text-2xl ml-2 hover:text-[#65c1b5] text-[#00b4d8]">Soxan Eurasia</span>
+            </div>
+      
+            <!-- Right side: Menu items -->
+            <div class="hidden sm:flex sm:items-center sm:space-x-4 ml-auto">
+              <a href="#home" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]" aria-current="page">Home</a>
+              <a href="#courses" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Courses</a>
+              <a href="#about" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">About Us</a>
+              <a href="#" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Instructors</a>
+              <a href="#testimonials" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Testimonials</a>
+              <a href="#contact" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Contact</a>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Mobile menu -->
+        <div class="sm:hidden" id="mobile-menu">
+          <div class="space-y-1 px-2 pt-2 pb-3">
+            <a href="#home" class="rounded-md px-3 py-2 text-xl font-medium text-black hover:text-[#00b4d8] text-[#00b4d8]">Home</a>
+            <a href="#courses" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Courses</a>
+            <a href="#about" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">About Us</a>
+            <a href="#" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Instructors</a>
+            <a href="#testimonials" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Testimonials</a>
+            <a href="#contact" class="rounded-md px-4 py-3 text-xl font-medium text-black hover:text-[#65c1b5] text-[#00b4d8]">Contact</a>
+          </div>
+        </div>
+      </nav>
+      
+
+      <section id="home" class="hero-gradient py-20">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <h1 class="text-4xl md:text-5xl font-bold text-gray-800 leading-tight mb-4">
+                        Learning a <span class="text-[#65c1b5]">Language</span> Opens up the Mind
+                    </h1>
+                    <p class="text-gray-600 text-lg mb-8">
+                        Soxan Eurasia – Your friendly online academy to learn English with confidence, connection, and real-world skills.
+                    </p>
+                    <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                        <a href="#" class="px-8 py-3 bg-[#65c1b5] text-white rounded-lg font-medium hover:bg-[#65c1b5] transition text-center">
+                            Start Learning
+                        </a>
+                        <a href="#courses" class="px-8 py-3 border border-[#65c1b5] text-[#65c1b5] rounded-lg font-medium hover:bg-[#65c1b5] hover:text-white transition text-center">
+                            Explore Courses
+                        </a>
+                    </div>
+                </div>
+                <div class="md:w-1/2">
+                    <img src="assets/images/learning.webp" alt="Language Learning" class="rounded-lg shadow-xl w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Our Language Courses</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Choose from our wide range of language courses designed for all proficiency levels.
+                </p>
+            </div>
+    
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Course 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/ielts.webp" alt="IELTS Course" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Conquer IELTS with Ease</h3>
+                        <p class="text-gray-600 mb-4">Sharpen your English skills and boost your confidence for the IELTS exam.
+                            Get expert guidance on listening, reading, writing, and speaking tasks.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#31a394] font-medium">$99/month</span>
+                            <a href="#" class="text-[#31a394] hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Course 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/tofel.webp" alt="TOEFL Course" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Master TOEFL with Confidence</h3>
+                        <p class="text-gray-600 mb-4">Prepare effectively for TOEFL with targeted strategies and practice.
+                            Enhance your academic English to achieve top scores with ease.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#31a394] font-medium">$89/month</span>
+                            <a href="#" class="text-[#31a394] hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Course 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/pte.webp" alt="PTE Course" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Achieve PTE Success</h3>
+                        <p class="text-gray-600 mb-4">Master all sections of the PTE Academic test with focused training.
+                            Gain the fluency, accuracy, and speed needed to reach your goals.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#31a394] font-medium">$109/month</span>
+                            <a href="#" class="text-[#31a394] hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Course 4 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/gre.webp" alt="GRE Course" class="w-full h-full object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Ace Your GRE Prep</h3>
+                        <p class="text-gray-600 mb-4">Crush the GRE with proven test strategies and in-depth concept reviews.
+                            Strengthen your verbal, quantitative, and analytical writing skills.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#31a394] font-medium">$109/month</span>
+                            <a href="#" class="text-[#31a394] hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Course 5 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/oet.webp" alt="OET Course" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Prepare for OET Excellence</h3>
+                        <p class="text-gray-600 mb-4">Tailored training for healthcare professionals aiming to pass OET.
+                            Improve your communication skills in real medical scenarios.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#31a394] font-medium">$109/month</span>
+                            <a href="#" class="text-[#31a394] hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Course 6 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-md transition duration-300">
+                    <div class="h-48 overflow-hidden">
+                        <img src="assets/images/Cambridge-CAE-logo.webp" alt="Business English Course" class="w-full h-full object-contain">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-2">Boost Your Career with Business English</h3>
+                        <p class="text-gray-600 mb-4">Advance your career by mastering the language of global business.
+                            Practice real-world communication for meetings, emails, and presentations.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[#31a394] font-medium">$109/month</span>
+                            <a href="#" class="text-[#31a394] hover:underline">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="text-center mt-12">
+                <a href="#" class="px-8 py-3 bg-[#65c1b5] text-white rounded-lg font-medium hover:bg-[#0096c7] transition inline-block">
+                    View All Courses
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+
+     <!-- About Section -->
+     <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80" alt="About Soxan Eurasia" class="rounded-lg shadow-xl w-full h-auto">
+                </div>
+                <div class="md:w-1/2 md:pl-12">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Why Choose Us?</h2>
+                    <p class="text-gray-600 mb-4">
+                        Our highly professional teachers are trailblazers who challenge outdated norms and have crafted a dynamic learning environment. With their innovative approach, we empower you to reach your desired level of English in the shortest time possible.
+                    </p>
+                    <p class="text-gray-600 mb-6">
+                        Our mission is to provide high-quality language education that is accessible, engaging, and tailored to each student's unique learning style and goals.
+                    </p>
+                    
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-[#65c1b5] text-white">
+                                    <i class="fa-solid fa-crown"></i>
+                                </div>
+                            </div>
+                            <div class="ml-3">
+                                <p class="font-semibold">Expert Language Instructors</p>
+                                <p class="text-gray-800">Our highly qualified language educators bring years of expertise and passion to every lesson. They are dedicated to helping you master English with personalized guidance and proven teaching methods.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-[#65c1b5] text-white">
+                                    <i class="fa-solid fa-business-time"></i>
+                                </div>
+                            </div>
+                            <div class="ml-3">
+                                <p class="font-semibold">Learn Online at Your Own Pace</p>
+                                <p class="text-gray-800">Learn at your own speed, whenever and wherever works best for you. Our flexible online courses allow you to progress at a pace that suits your lifestyle and goals.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="flex-shrink-0 mt-1">
+                                <div class="flex items-center justify-center h-8 w-8 rounded-full bg-[#65c1b5] text-white">
+                                    <i class="fa-solid fa-handshake"></i>
+                                </div>
+                            </div>
+                            <div class="ml-3">
+                                <p class="font-semibold">Ready to Cooperate</p>
+                                <p class="text-gray-800">We are open to collaborate with companies, schools, universities, and institutions in need of expert English instructors, available both on-site and online. Our tailored solutions ensure that your team or students receive the highest quality language education, wherever they are.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--ADD INSTRUCTOS!!!!!!!!!!!!!!!-->
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">What Our Students Say</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Hear from our students about their learning experiences at Soxan Eurasia.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-xl shadow-md testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-[#65c1b5] flex items-center justify-center text-white font-bold text-xl">AS</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Arman S.</h4>
+                            <p class="text-gray-500 text-sm">Business English Student</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "The teachers at Soxan Eurasia are incredibly patient and knowledgeable. My English has improved dramatically in just three months!"
+                    </p>
+                    <div class="mt-4 text-[#F7CA18]">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-xl shadow-md testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-[#65c1b5] flex items-center justify-center text-white font-bold text-xl">DK</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Dmitry Kozlov</h4>
+                            <p class="text-gray-500 text-sm">TOFEL Student</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "The TOEFL course at Soxan Eurasia was exactly what I needed. The teachers were supportive, the materials were spot-on, and the feedback really helped me improve. I scored 108 and now feel confident about studying abroad!"
+                    </p>
+                    <div class="mt-4 text-[#F7CA18]">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-xl shadow-md testimonial-card">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full bg-[#65c1b5] flex items-center justify-center text-white font-bold text-xl">ME</div>
+                        <div class="ml-4">
+                            <h4 class="font-semibold text-gray-800">Maria Egorova</h4>
+                            <p class="text-gray-500 text-sm">PTE Student</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-600">
+                        "I love the small class sizes and personalized attention. The online platform is also very convenient for my busy schedule."
+                    </p>
+                    <div class="mt-4 text-[#F7CA18]">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <!-- CTA Section -->
+     <section class="py-16 bg-[#65c1b5] text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-6">Ready to Start Your Language Journey?</h2>
+            <p class="text-xl mb-8 max-w-2xl mx-auto">
+                Join thousands of students who have transformed their lives through language learning.
+            </p>
+            <a href="#" class="px-8 py-3 bg-white text-[#31a394] rounded-lg font-medium hover:bg-gray-100 transition inline-block">
+                Enroll Now
+            </a>
+        </div>
+    </section>
+
+     <!-- Contact Section -->
+     <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl font-bold text-gray-800 mb-4">Contact Us</h2>
+                <p class="text-gray-600 max-w-2xl mx-auto">
+                    Have questions? Get in touch with our team for more information about our programs.
+                </p>
+            </div>
+            
+            <div class="flex flex-col md:flex-row">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <div class="bg-gray-50 p-8 rounded-xl shadow-md h-full">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-6">Our Information</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-map-marker-alt text-[#65c1b5] text-xl"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-medium text-gray-800">Address</h4>
+                                    <p class="text-gray-600">Behind our Laptops</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-phone-alt text-[#65c1b5] text-xl"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-medium text-gray-800">Phone</h4>
+                                    <p class="text-gray-600">+3741231234</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-envelope text-[#65c1b5] text-xl"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-medium text-gray-800">Email</h4>
+                                    <p class="text-gray-600">eurasiasoxan@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="flex-shrink-0 mt-1">
+                                    <i class="fas fa-clock text-[#65c1b5] text-xl"></i>
+                                </div>
+                                <div class="ml-4">
+                                    <h4 class="font-medium text-gray-800">Working Hours</h4>
+                                    <p class="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                                    <p class="text-gray-600">Saturday: 10:00 AM - 4:00 PM</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8">
+                            <h4 class="font-medium text-gray-800 mb-4">Follow Us</h4>
+                            <div class="flex space-x-4">
+                                <a href="#" class="w-10 h-10 rounded-full bg-[#65c1b5] text-white flex items-center justify-center hover:bg-[#31a394] transition">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-[#65c1b5] text-white flex items-center justify-center hover:bg-[#31a394] transition">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-[#65c1b5] text-white flex items-center justify-center hover:bg-[#31a394] transition">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" class="w-10 h-10 rounded-full bg-[#65c1b5] text-white flex items-center justify-center hover:bg-[#31a394] transition">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2 md:pl-12">
+                    <form class="bg-gray-50 p-8 rounded-xl shadow-md">
+                        <div class="mb-6">
+                            <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
+                            <input type="text" id="name" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#65c1b5] focus:border-transparent" placeholder="Your name">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#65c1b5] focus:border-transparent" placeholder="Your email">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="subject" class="block text-gray-700 font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#65c1b5] focus:border-transparent" placeholder="Subject">
+                        </div>
+                        
+                        <div class="mb-6">
+                            <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                            <textarea id="message" rows="5" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-[#65c1b5] focus:border-transparent resize-none" placeholder="Your message"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full px-6 py-3 bg-[#65c1b5] text-white rounded-lg font-medium hover:bg-[#65c1b5] transition">
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-15">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <img class="h-15 w-auto" src="assets/images/soxan-logo.png" alt="soxan-logo">
+                        <span class="ml-3 text-xl font-semibold">Soxan Eurasia</span>
+                    </div>
+                    <p class="text-gray-400">
+                        At Soxan Eurasia, we are dedicated to providing top-quality English language education. Whether you’re preparing for exams or improving your skills, our expert instructors are here to support your journey. Join us today and take the next step toward fluency!
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#courses" class="text-gray-400 hover:text-white transition">Courses</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About Us</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">Instructors</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition">Testimonials</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">Courses</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Conquer IELTS with Ease</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Master TOEFL with Confidence</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Achieve PTE Success</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Prepare for OET Excellence</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Boost Your Career with Business English</a></li>
+                    </ul>
+                </div>
+                
+            
+            </div>
+            
+            <div class="border-t border-gray-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 mb-4 md:mb-0">
+                    &copy; 2025 Soxan Eurasia. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#" class="text-gray-400 hover:text-white transition">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
